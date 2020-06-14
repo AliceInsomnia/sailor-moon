@@ -1,0 +1,1173 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+body {
+  background-color: #f0f0f0;
+}
+
+.eye1 {
+  position: absolute;
+}
+.eye1 h1 {
+  color: #5185aa;
+  margin-left: 600px;
+  margin-top: 300px;
+  font-size: 70px;
+}
+
+.eye2 {
+  position: absolute;
+}
+.eye2 h2 {
+  color: #5185aa;
+  margin-left: 750px;
+  margin-top: 320px;
+  font-size: 70px;
+}
+
+.nose {
+  position: absolute;
+}
+.nose h3 {
+  color: #69768b;
+  font-family: "Josefin Sans", sans-serif;
+  margin-left: 675px;
+  margin-top: 380px;
+  font-size: 65px;
+  transform: rotate(180deg);
+}
+
+.lips1 {
+  position: absolute;
+}
+.lips1 h4 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #3f3b3d;
+  margin-left: 680px;
+  margin-top: 440px;
+  font-size: 30px;
+  transform: rotate(90deg);
+}
+
+.lips2 {
+  position: absolute;
+}
+.lips2 h5 {
+  color: #3f3b3d;
+  margin-left: 678px;
+  margin-top: 406px;
+  font-size: 50px;
+}
+
+.eyebrow1 {
+  position: absolute;
+  animation-name: eyebrow1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.eyebrow1 h6 {
+  margin-left: 625px;
+  margin-top: 275px;
+  font-size: 70px;
+  color: #69768b;
+  transform: rotate(90deg);
+}
+
+@keyframes eyebrow1 {
+  0% {
+    top: 12px;
+  }
+  100% {
+    top: 8px;
+  }
+}
+.eyebrow2 {
+  position: absolute;
+  transform: rotate(90deg);
+  animation-name: eyebrow2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.eyebrow2 h7 {
+  color: #69768b;
+  margin-left: 1080px;
+  margin-right: 485px;
+  font-size: 70px;
+}
+
+@keyframes eyebrow2 {
+  0% {
+    top: 12px;
+  }
+  100% {
+    top: 8px;
+  }
+}
+.eyelash1 {
+  position: absolute;
+  transform: rotate(90deg);
+}
+.eyelash1 h8 {
+  color: #3f3b3d;
+  margin-left: 980px;
+  margin-right: 280px;
+  font-size: 50px;
+  transform: rotate(90deg);
+}
+
+.eyelash2 {
+  position: absolute;
+  transform: rotate(90deg);
+}
+.eyelash2 h9 {
+  color: #3f3b3d;
+  margin-left: 1150px;
+  margin-right: 410px;
+  font-size: 50px;
+}
+
+.cheek1 {
+  position: absolute;
+  transform: rotate(40deg);
+  color: #3f3b3d;
+}
+.cheek1 h10 {
+  margin-left: 740px;
+  margin-right: -450px;
+  font-size: 50px;
+}
+
+.cheek2 {
+  position: absolute;
+  transform: rotate(40deg);
+  color: #3f3b3d;
+}
+.cheek2 h11 {
+  margin-left: 885px;
+  margin-right: -350px;
+  font-size: 50px;
+}
+
+.eyehair1 {
+  position: absolute;
+  transform: rotate(-10deg);
+  color: #3f3b3d;
+}
+.eyehair1 h12 {
+  margin-left: 580px;
+  margin-right: 4890px;
+  font-size: 18px;
+}
+
+.eyehair2 {
+  position: absolute;
+  transform: rotate(-5deg);
+  color: #3f3b3d;
+}
+.eyehair2 h13 {
+  margin-left: 740px;
+  margin-right: 9720px;
+  font-size: 18px;
+}
+
+.ear1 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #3f3b3d;
+}
+.ear1 h3 {
+  margin-left: 525px;
+  margin-top: 290px;
+  font-size: 140px;
+}
+
+.ear2 {
+  position: absolute;
+  transform: rotate(210deg);
+  font-family: "Josefin Sans", sans-serif;
+  color: #3f3b3d;
+}
+.ear2 h3 {
+  margin-left: 100px;
+  margin-top: 3450px;
+  font-size: 140px;
+}
+
+.chin1 {
+  position: absolute;
+  transform: rotate(52deg);
+  font-family: "Josefin Sans", sans-serif;
+  color: #3f3b3d;
+}
+.chin1 h3 {
+  margin-left: 685px;
+  margin-top: 70px;
+  font-size: 170px;
+}
+
+.chin2 {
+  position: absolute;
+  transform: rotate(240deg);
+  font-family: "Josefin Sans", sans-serif;
+  color: #3f3b3d;
+}
+.chin2 h3 {
+  margin-left: 200px;
+  margin-top: 1600px;
+  font-size: 160px;
+}
+
+.chin3 {
+  position: absolute;
+  transform: rotate(55deg);
+  font-family: "Josefin Sans", sans-serif;
+  color: #3f3b3d;
+}
+.chin3 h3 {
+  margin-left: 900px;
+  margin-top: -20px;
+  font-size: 160px;
+}
+
+.earring1 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #3f3b3d;
+  animation-name: earring1;
+  animation-duration: 1.05s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.earring1 h3 {
+  margin-left: 585px;
+  margin-top: 405px;
+  font-size: 20px;
+}
+
+@keyframes earring1 {
+  0% {
+    left: 10px;
+  }
+  100% {
+    left: 6px;
+  }
+}
+.earring2 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #3f3b3d;
+  animation-name: earring2;
+  animation-duration: 1.05s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.earring2 h3 {
+  margin-left: 585px;
+  margin-top: 415px;
+  font-size: 20px;
+}
+
+@keyframes earring2 {
+  0% {
+    left: 15px;
+  }
+  100% {
+    left: 3px;
+  }
+}
+.earring3 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #3f3b3d;
+  animation-name: earring3;
+  animation-duration: 1.05s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.earring3 h3 {
+  margin-left: 835px;
+  margin-top: 455px;
+  font-size: 20px;
+}
+
+@keyframes earring3 {
+  0% {
+    left: 10px;
+  }
+  100% {
+    left: 6px;
+  }
+}
+.earring4 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #3f3b3d;
+  animation-name: earring4;
+  animation-duration: 1.05s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.earring4 h3 {
+  margin-left: 835px;
+  margin-top: 465px;
+  font-size: 20px;
+}
+
+@keyframes earring4 {
+  0% {
+    left: 15px;
+  }
+  100% {
+    left: 3px;
+  }
+}
+.earring5 {
+  position: absolute;
+  transform: rotate(140deg);
+  font-family: "Josefin Sans", sans-serif;
+  color: #ccb454;
+  animation-name: earring5;
+  animation-duration: 1.05s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.earring5 h3 {
+  margin-left: 1650px;
+  margin-right: 425px;
+  font-size: 30px;
+}
+
+@keyframes earring5 {
+  0% {
+    left: 16px;
+  }
+  100% {
+    left: 2px;
+  }
+}
+.earring6 {
+  position: absolute;
+  transform: rotate(110deg);
+  font-family: "Josefin Sans", sans-serif;
+  animation-name: earring6;
+  animation-duration: 1.05s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  color: #ccb454;
+}
+.earring6 h3 {
+  margin-left: 1450px;
+  margin-right: 535px;
+  font-size: 30px;
+}
+
+@keyframes earring6 {
+  0% {
+    left: 16px;
+  }
+  100% {
+    left: 2px;
+  }
+}
+.headdress1 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #3f3b3d;
+}
+.headdress1 h3 {
+  margin-left: 685px;
+  margin-top: 260px;
+  font-size: 90px;
+}
+
+.headdress2 {
+  position: absolute;
+  transform: rotate(180deg);
+  font-family: "Josefin Sans", sans-serif;
+  color: #ccb454;
+}
+.headdress2 h3 {
+  margin-right: 705px;
+  margin-bottom: 260px;
+  font-size: 45px;
+}
+
+.headdress3 {
+  position: absolute;
+  transform: scaleY(-1);
+  font-family: "Josefin Sans", sans-serif;
+  color: #ccb454;
+}
+.headdress3 h3 {
+  margin-left: 695px;
+  margin-bottom: 260px;
+  font-size: 45px;
+}
+
+.headdress4 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #ccb454;
+}
+.headdress4 h3 {
+  margin-left: 690px;
+  margin-top: 195px;
+  font-size: 90px;
+}
+
+.headdress5 {
+  position: absolute;
+  transform: rotate(10deg);
+  color: #3f3b3d;
+  animation-name: headdress5;
+  animation-duration: 1.05s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.headdress5 h3 {
+  margin-left: 650px;
+  margin-top: 110px;
+  font-size: 95px;
+}
+
+@keyframes headdress5 {
+  0% {
+    left: 8px;
+  }
+  100% {
+    left: 15px;
+  }
+}
+.headdress6 {
+  position: absolute;
+  transform: rotate(10deg);
+  color: #3f3b3d;
+  animation-name: headdress6;
+  animation-duration: 1.07s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.headdress6 h3 {
+  margin-left: 745px;
+  margin-top: 120px;
+  font-size: 95px;
+}
+
+@keyframes headdress6 {
+  0% {
+    left: 8px;
+  }
+  100% {
+    left: 12px;
+  }
+}
+.headdress7 {
+  position: absolute;
+  transform: rotate(-25deg);
+  color: #ccb454;
+  animation-name: headdress7;
+  animation-duration: 1.02s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.headdress7 h3 {
+  margin-left: 570px;
+  margin-top: 340px;
+  font-size: 100px;
+}
+
+@keyframes headdress7 {
+  0% {
+    left: 8px;
+  }
+  100% {
+    left: 12px;
+  }
+}
+.headdress8 {
+  position: absolute;
+  transform: rotate(-30deg);
+  color: #3f3b3d;
+  animation-name: headdress8;
+  animation-duration: 1.1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.headdress8 h3 {
+  margin-left: 520px;
+  margin-top: 378px;
+  font-size: 60px;
+}
+
+@keyframes headdress8 {
+  0% {
+    left: 8px;
+  }
+  100% {
+    left: 18px;
+  }
+}
+.headdress9 {
+  position: absolute;
+  transform: rotate(50deg);
+  color: #ccb454;
+  animation-name: headdress9;
+  animation-duration: 1.02s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.headdress9 h3 {
+  margin-right: 570px;
+  margin-bottom: 1900px;
+  font-size: 100px;
+}
+
+@keyframes headdress9 {
+  0% {
+    left: 8px;
+  }
+  100% {
+    left: 15px;
+  }
+}
+.headdress10 {
+  position: absolute;
+  transform: rotate(55deg);
+  color: #3f3b3d;
+  animation-name: headdress10;
+  animation-duration: 1.02s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.headdress10 h3 {
+  margin-right: 470px;
+  margin-bottom: 1810px;
+  font-size: 70px;
+}
+
+@keyframes headdress10 {
+  0% {
+    left: 8px;
+  }
+  100% {
+    left: 15px;
+  }
+}
+.headdress11 {
+  position: absolute;
+  transform: rotate(55deg);
+  color: #ccb454;
+  animation-name: headdress11;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.headdress11 h3 {
+  margin-right: 360px;
+  margin-bottom: 1900px;
+  font-size: 40px;
+}
+
+@keyframes headdress11 {
+  0% {
+    left: 8px;
+  }
+  100% {
+    left: 18px;
+  }
+}
+.headdress12 {
+  position: absolute;
+  transform: rotate(50deg);
+  color: #3f3b3d;
+  animation-name: headdress12;
+  animation-duration: 1.05s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.headdress12 h3 {
+  margin-right: 260px;
+  margin-bottom: 2150px;
+  font-size: 30px;
+}
+
+@keyframes headdress12 {
+  0% {
+    left: 8px;
+  }
+  100% {
+    left: 20px;
+  }
+}
+.headdress13 {
+  position: absolute;
+  transform: rotate(35deg);
+  color: #3f3b3d;
+  animation-name: headdress13;
+  animation-duration: 1.1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.headdress13 h3 {
+  margin-right: 70px;
+  margin-bottom: 3100px;
+  font-size: 50px;
+}
+
+@keyframes headdress13 {
+  0% {
+    left: 8px;
+  }
+  100% {
+    left: 16px;
+  }
+}
+.headdress14 {
+  position: absolute;
+  transform: rotate(20deg);
+  color: #ccb454;
+  animation-name: headdress14;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.headdress14 h3 {
+  margin-left: 950px;
+  margin-top: 110px;
+  font-size: 50px;
+}
+
+@keyframes headdress14 {
+  0% {
+    left: 8px;
+  }
+  100% {
+    left: 17px;
+  }
+}
+.hair1 {
+  position: absolute;
+  transform: rotate(60deg);
+  color: #3f3b3d;
+}
+.hair1 h3 {
+  margin-right: 670px;
+  margin-bottom: 1410px;
+  font-size: 75px;
+}
+
+.hair2 {
+  position: absolute;
+  transform: rotate(320deg);
+  color: #3f3b3d;
+}
+.hair2 h3 {
+  margin-left: 850px;
+  margin-top: 540px;
+  font-size: 75px;
+}
+
+.hair3 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #3f3b3d;
+  transform: rotate(135deg);
+}
+.hair3 h3 {
+  margin-right: 760px;
+  margin-bottom: 455px;
+  font-size: 70px;
+}
+
+.hair4 {
+  position: absolute;
+  color: #3f3b3d;
+  font-family: "Josefin Sans", sans-serif;
+  transform: rotate(135deg);
+}
+.hair4 h3 {
+  margin-right: 790px;
+  margin-bottom: 550px;
+  font-size: 70px;
+}
+
+.hair5 {
+  position: absolute;
+  transform: rotate(40deg);
+  color: #3f3b3d;
+}
+.hair5 h3 {
+  margin-right: 920px;
+  margin-bottom: 2400px;
+  font-size: 95px;
+}
+
+.hair6 {
+  position: absolute;
+  transform: rotate(40deg);
+  color: #3f3b3d;
+}
+.hair6 h3 {
+  margin-right: 800px;
+  margin-bottom: 2670px;
+  font-size: 95px;
+}
+
+.hair7 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #b44a4a;
+  transform: rotate(335deg);
+}
+.hair7 h3 {
+  margin-left: 870px;
+  margin-top: 270px;
+  font-size: 150px;
+}
+
+.braid1 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #ccb454;
+  transform: rotate(90deg);
+}
+.braid1 h3 {
+  margin-right: 590px;
+  margin-bottom: 680px;
+  font-size: 120px;
+}
+
+.braid2 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #b44a4a;
+  transform: rotate(30deg);
+}
+.braid2 h3 {
+  margin-right: 900px;
+  margin-bottom: 2090px;
+  font-size: 150px;
+}
+
+.braid3 {
+  position: absolute;
+  color: #3f3b3d;
+  transform: rotate(60deg);
+  animation-name: braid3;
+  animation-duration: 1.1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.braid3 h3 {
+  margin-right: 480px;
+  margin-bottom: 1000px;
+  font-size: 100px;
+}
+
+@keyframes braid3 {
+  0% {
+    left: 3px;
+  }
+  100% {
+    left: -3px;
+  }
+}
+.braid4 {
+  position: absolute;
+  color: #ccb454;
+  transform: rotate(20deg);
+  animation-name: braid4;
+  animation-duration: 1.1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.braid4 h3 {
+  margin-left: 520px;
+  margin-top: 100px;
+  font-size: 100px;
+}
+
+@keyframes braid4 {
+  0% {
+    left: 3px;
+  }
+  100% {
+    left: -3px;
+  }
+}
+.braid5 {
+  position: absolute;
+  color: #3f3b3d;
+  transform: rotate(5deg);
+  animation-name: braid5;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.braid5 h3 {
+  margin-left: 480px;
+  margin-top: 280px;
+  font-size: 100px;
+}
+
+@keyframes braid5 {
+  0% {
+    left: 5px;
+  }
+  100% {
+    left: -5px;
+  }
+}
+.braid6 {
+  position: absolute;
+  color: #3f3b3d;
+  transform: rotate(-15deg);
+  animation-name: braid6;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.braid6 h3 {
+  margin-left: 410px;
+  margin-top: 475px;
+  font-size: 125px;
+}
+
+@keyframes braid6 {
+  0% {
+    left: 7px;
+  }
+  100% {
+    left: -7px;
+  }
+}
+.braid7 {
+  position: absolute;
+  color: #ccb454;
+  transform: rotate(-18deg);
+  animation-name: braid7;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.braid7 h3 {
+  margin-left: 440px;
+  margin-top: 600px;
+  font-size: 125px;
+}
+
+@keyframes braid7 {
+  0% {
+    left: 10px;
+  }
+  100% {
+    left: -10px;
+  }
+}
+.braid8 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  transform: rotate(90deg);
+  color: #ccb454;
+  animation-name: braid8;
+  animation-duration: 1.02s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.braid8 h3 {
+  margin-right: 870px;
+  margin-bottom: 1200px;
+  font-size: 200px;
+}
+
+@keyframes braid8 {
+  0% {
+    left: 10px;
+  }
+  100% {
+    left: -5px;
+  }
+}
+.braid9 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #3f3b3d;
+  transform: rotate(95deg);
+  animation-name: braid8;
+  animation-duration: 1.02s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.braid9 h3 {
+  margin-right: 750px;
+  margin-bottom: 1235px;
+  font-size: 190px;
+}
+
+.braid10 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #ccb454;
+  transform: scaleY(-1);
+  animation-name: braid8;
+  animation-duration: 1.1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.braid10 h3 {
+  margin-left: 920px;
+  margin-bottom: 500px;
+  font-size: 170px;
+}
+
+.love1 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #5b82b3;
+  transform: rotate(20deg);
+}
+.love1 h3 {
+  margin-left: 770px;
+  margin-top: 410px;
+  font-size: 50px;
+}
+
+.love2 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #ccb454;
+  transform: rotate(20deg);
+}
+.love2 h3 {
+  margin-left: 763px;
+  margin-top: 415px;
+  font-size: 75px;
+}
+
+.clothes1 {
+  position: absolute;
+  color: #b44a4a;
+  transform: rotate(310deg);
+}
+.clothes1 h3 {
+  margin-left: 450px;
+  margin-top: 710px;
+  font-size: 150px;
+}
+
+.clothes2 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #5080a3;
+  transform: rotate(90deg);
+}
+.clothes2 h3 {
+  margin-left: 990px;
+  margin-top: -140px;
+  font-size: 170px;
+}
+
+.clothes3 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #5080a3;
+  transform: rotate(90deg);
+}
+.clothes3 h3 {
+  margin-left: 1050px;
+  margin-top: -250px;
+  font-size: 170px;
+}
+
+.clothes4 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #3f3b3d;
+  transform: rotate(350deg);
+}
+.clothes4 h3 {
+  margin-left: 625px;
+  margin-top: 645px;
+  font-size: 150px;
+}
+
+.clothes5 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #3f3b3d;
+  transform: rotate(10deg);
+}
+.clothes5 h3 {
+  margin-left: 810px;
+  margin-top: 440px;
+  font-size: 140px;
+}
+
+.clothes6 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #b44a4a;
+  transform: rotate(3deg);
+}
+.clothes6 h3 {
+  margin-left: 795px;
+  margin-top: 570px;
+  font-size: 140px;
+}
+
+.arms1 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #5080a3;
+  transform: rotate(340deg);
+}
+.arms1 h3 {
+  margin-left: 500px;
+  margin-top: 550px;
+  font-size: 150px;
+}
+
+.arms2 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #ccb454;
+  transform: rotate(70deg);
+}
+.arms2 h3 {
+  margin-left: 830px;
+  margin-top: 110px;
+  font-size: 150px;
+}
+
+.arms3 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #3f3b3d;
+  transform: rotate(170deg);
+}
+.arms3 h3 {
+  margin-right: 550px;
+  margin-bottom: 650px;
+  font-size: 160px;
+}
+
+.arms4 {
+  position: absolute;
+  transform: rotate(30deg);
+  color: #b44a4a;
+  opacity: 0.5;
+}
+.arms4 h3 {
+  margin-left: 920px;
+  margin-top: 220px;
+  font-size: 140px;
+}
+
+.arms5 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #ccb454;
+  transform: rotate(85deg);
+}
+.arms5 h3 {
+  margin-left: 1050px;
+  margin-top: -390px;
+  font-size: 150px;
+}
+
+.arms6 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #ccb454;
+  transform: rotate(70deg);
+}
+.arms6 h3 {
+  margin-left: 1150px;
+  margin-top: -135px;
+  font-size: 120px;
+}
+
+.arms7 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #3f3b3d;
+  transform: scaleY(-1);
+}
+.arms7 h3 {
+  margin-left: 880px;
+  margin-bottom: 580px;
+  font-size: 140px;
+}
+
+.body {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #3f3b3d;
+  opacity: 0.2;
+  transform: rotate(340deg);
+}
+.body h3 {
+  margin-left: 330px;
+  margin-top: 520px;
+  font-size: 250px;
+}
+
+.fly1 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #3f3b3d;
+  transform: rotate(110deg);
+}
+.fly1 h3 {
+  margin-left: 350px;
+  margin-top: -300px;
+  font-size: 100px;
+}
+
+.fly2 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #5080a3;
+}
+.fly2 h3 {
+  margin-left: 320px;
+  margin-top: 350px;
+  font-size: 130px;
+}
+
+.fly3 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #5080a3;
+  transform: rotate(30deg);
+}
+.fly3 h3 {
+  margin-left: 1100px;
+  margin-top: 0px;
+  font-size: 100px;
+}
+
+.fly4 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  color: #3f3b3d;
+  transform: rotate(110deg);
+}
+.fly4 h3 {
+  margin-right: 750px;
+  margin-bottom: 1200px;
+  font-size: 100px;
+}
+
+.fly5 {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  opacity: 0.1;
+  transform: rotate(110deg);
+}
+.fly5 h3 {
+  margin-left: 385px;
+  margin-top: -290px;
+  font-size: 100px;
+}
